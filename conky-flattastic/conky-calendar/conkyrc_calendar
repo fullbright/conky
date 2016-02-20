@@ -44,10 +44,10 @@ color2 9FA8B5
 color3 757F8E
 color4 566070
 
-lua_load ~/.conky/conky-calendar/calendar.lua
+lua_load ~/.conky/conky-flattastic/conky-calendar/calendar.lua
 lua_draw_hook_pre draw_fig
 
 
 TEXT
-${image ~/.conky/conky-calendar/calback.png -p 0,0}${font Roboto Light :size=60}${voffset -8}${goto 10}${time %H}${goto 120}${time %M}
+${image ~/.conky/conky-flattastic/conky-calendar/calback.png -p 0,0}${font Roboto Light :size=60}${voffset -8}${goto 10}${time %H}${goto 120}${time %M}
 ${color4}${font Open Sans:size=10}$alignc${voffset -54}${time %B %Y}

@@ -43,12 +43,12 @@ color2 BDC6D2
 color3 566070
 
 # -- Lua load -- #
-lua_load ~/.conky/conky-ring/ring.lua 
+lua_load ~/.conky/conky-flattastic/conky-ring/ring.lua 
 lua_draw_hook_pre ring_stats
 
 #at least one line (empty or not) after TEXT
 TEXT
-${image ~/.conky/conky-ring/Stats_Back.png -p 0,0}${goto 256}${voffset 22}${color1}${font SourceSansPro Regular :size=10}RAM
+${image ~/.conky/conky-flattastic/conky-ring/Stats_Back.png -p 0,0}${goto 256}${voffset 22}${color1}${font SourceSansPro Regular :size=10}RAM
 ${goto 220}${voffset 9}${color3}${font Roboto Medium :size=10}${memperc}%
 ${goto 82}${voffset 15}${color3}${font Roboto Light :size=22}${cpu cpu0}%
 ${goto 93}${voffset -23}${color1}${font SourceSansPro Regular :size=10}CPU${goto 256}${voffset 13}TEMP

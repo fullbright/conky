@@ -39,6 +39,6 @@ color2 444B55
 color3 00FFFB
 
 TEXT
-${image ~/.conky/conky-rss/ImageRSSBack.png -p 0,0}${color2}${font Roboto Light :size=13}${voffset 18}${goto 338}Top Stories -Google News$color${font Cantarell:size=10}
-${voffset 8}${exec python ~/.conky/conky-rss/rss.py}
-${execp bash ~/.conky/conky-rss/slideshow.sh}
+${image ~/.conky/conky-flattastic/conky-rss/ImageRSSBack.png -p 0,0}${color2}${font Roboto Light :size=13}${voffset 18}${goto 338}Top Stories -Google News$color${font Cantarell:size=10}
+${voffset 8}${exec python ~/.conky/conky-flattastic/conky-rss/rss.py}
+${execp bash ~/.conky/conky-flattastic/conky-rss/slideshow.sh}
