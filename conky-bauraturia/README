@@ -1,0 +1,40 @@
+Conky by http://zagortenay333.deviantart.com/
+
+-------------------------------------------------------------------------------------------------------
+  
+The modified weather icons belong to the faenza icon set:
+  -http://tiheum.deviantart.com/art/Faenza-Icons-173323228
+  
+-------------------------------------------------------------------------------------------------------  
+
+1. Install the "OpenSans-Light" font.
+
+2. Move the ".conkyrc" and ".conky-weather-icons" to your home folder.
+
+3. Make sure to install "curl" in order to display the weather! (sudo apt-get install curl)
+
+4. Open the file ".conkyrc" with a text editor, search for "44418" and replace it with the WOEID of your own location. To find your WOEID, browse or search for your city from the Yahoo Weather home page - http://weather.yahoo.com/ . The WOEID is in the URL for the forecast page for that city.
+
+5. The first day in the conky displays the forecast for today.(in blue color)
+
+6. Run conky from terminal.
+
+-------------------------------------------------------------------------------------------------------
+NOTE*
+
+Be careful when changing fonts as well as font sizes!The images in conky have a set position, so if you change the font or size of the text, the text will move up/down while the images will stay in position, making it look out of place.
+
+If you wish to change the font you can fix the problem in 3 ways:
+
+1. Either change the size of the font until your images are in position
+
+2. Change the position off the corresponding images.Search for "-p" and manipulate the neccesary values.
+
+3. You can also move the text up/down by adding empty lines in the conkyrc.(enter/backspace)
+
+The switcher is showing whether you are connected to the interwebz or not :)
+-------------------------------------------------------------------------------------------------------
+
+
+
+Salute :)
